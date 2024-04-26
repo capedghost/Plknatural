@@ -145,10 +145,10 @@ combo_t key_combos[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        KC_LSFT, KC_Q,    KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,    KC_BSPC,
-        KC_ESC,  KC_A,    LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RCTL_T(KC_K), RALT_T(KC_L), KC_SCLN, KC_ENT,
-        KC_PSCR, KC_Y,    KC_Z,         KC_X,         LGUI_T(KC_C), KC_V,   KC_B,   RGUI_T(KC_N), KC_M,         KC_CAPS,      KC_MPRV, KC_MNXT,
-        KC_SPC,  KC_LALT, KC_LCTL,      LT(1,KC_ESC), LT(2,KC_TAB), KC_NO,  KC_SPC, LT(3,KC_2),   LT(4,KC_3),   KC_MPLY,      KC_VOLD, KC_VOLU
+        KC_LSFT, KC_Q,    KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,      KC_BSPC,
+        KC_ESC,  KC_A,    LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RCTL_T(KC_K), RALT_T(KC_L), G(KC_SPC), KC_ENT,
+        KC_PSCR, KC_Y,    KC_Z,         KC_X,         LGUI_T(KC_C), KC_V,   KC_B,   RGUI_T(KC_N), KC_M,         KC_CAPS,      KC_MPRV,   KC_MNXT,
+        KC_SPC,  KC_LALT, KC_LCTL,      LT(1,KC_ESC), LT(2,KC_TAB), KC_NO,  KC_SPC, LT(3,KC_2),   LT(4,KC_3),   KC_MPLY,      KC_VOLD,   KC_VOLU
     ),
     [1] = LAYOUT(
         KC_WH_U, KC_BTN2, A(KC_LEFT), KC_MS_U,   A(KC_RGHT), G(KC_UP),   LSG(KC_UP), KC_WH_L,       KC_WH_U,       KC_WH_R, A(KC_UP),   KC_NO,
